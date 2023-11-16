@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    /* change the font */
+    font-family: 'Ubuntu', sans-serif;
+}
+
+html , body{
+    width: 100%;
+    height: 100%;
+}
+/* root variables to specify colors , change the color as you want */
+:root{
+    --bg--color: #020312;
+    --text-color : #fff;
+    --main-color: #8c11f8;
+    --second-color : gray;
+    --other-color: #12141c;
+    --h1-font: 5rem;
+    --h2-font : 3.2rem;
+    --p-font : 1rem;
+    
+}
