@@ -15,13 +15,67 @@ html , body{
 }
 /* root variables to specify colors , change the color as you want */
 :root{
-    --bg--color: #020312;
+    --bg--color: rgba(0, 0, 0, 0.953);
     --text-color : #fff;
-    --main-color: #8c11f8;
+    --main-color: #0096ff;
     --second-color : gray;
     --other-color: #12141c;
     --h1-font: 5rem;
     --h2-font : 3.2rem;
-    --p-font : 1rem;
+    --p-font : 1.2rem;
     
+}
+body{
+    background: var(--bg--color);
+    color: var(--text-color);
+}
+
+header{
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:transparent;
+    padding: 22px 16%;
+    border-bottom: 1px solid transparent;
+    transition: all .40 ease;
+}
+
+.logo img{
+    width: 9rem;
+    height: auto;
+    transition: all .40s ease;
+}
+.logo img:hover{
+    width: 10rem;
+}
+
+.navbar{
+    display: flex;
+}
+.navbar li a{
+    color: var(--second-color);
+    font-size: var(--p-font);
+    padding: 10px 25px;
+    margin: 0 2px;
+    border-radius: 0.5rem;
+    transition: all .40s ease;
+}
+
+.navbar a:hover{
+    color: var(--main-color);
+    font-weight: 900;
+    font-size:1.3rem ;
+}
+
+#menu-icon{
+    font-size: 36px;
+    color: var(--text-color);
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
 }
