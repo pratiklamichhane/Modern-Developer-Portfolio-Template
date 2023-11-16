@@ -79,3 +79,64 @@ header{
     cursor: pointer;
     display: none;
 }
+
+section{
+    padding: 160px 16% 90px ;
+}
+.home{
+    height: 100vh ;
+    width: 100%;
+    position: relative;
+    background: url(img/hero-background.png) ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.home-text h1{
+    margin: 20px 0;
+    font-size: var(--h1-font);
+    font-weight: bold;
+    line-height: 1.1;
+    letter-spacing: 2px;
+}
+.home-text span{
+    color: var(--main-color);
+}
+
+.home-text h4{
+    color: var(--main-color);
+    font-size: 5vmin;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.home-text h5{
+    color: var(--main-color);
+    font-size: 4vmin;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.home-text h5 Span{
+    color: var(--text-color);
+    font-size: 4vmin;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.home-text button{
+    display: inline-block;
+    padding: 14px 40px;
+    border-radius: 0.5rem;
+    font-size: 17px;
+    font-weight: 800;
+    transition: all 0.40s ease;
+}
+
+.home-text button:hover{
+    background-color: var(--main-color);
+    color: var(--text-color);
+    font-size: 20px;
+
+}
