@@ -287,3 +287,24 @@ button:hover{
     transform: scale(1.01) translateY(-5px);
     border-top: 5px solid var(--main-color);
    }
+
+   .contact{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    align-items: center;
+    gap: 3rem;
+   }
+   .contact-text h4{
+    margin: 15px 0;
+    color: var(--main-color);
+    font-style: 20px;
+    font-weight: 600;
+
+   }
+   .contact-text h2{
+    font-size: var(--h2-font);
+   }
+   .contact-text p{
+    font-size: var(--p-font);
+    color: var(--second-color);
+   }
