@@ -17,6 +17,7 @@
     />
     <!-- google fonts kanit
     css rules : font-family: 'Kanit', sans-serif; -->
+    
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -33,13 +34,14 @@
       <a href="#" class="logo"><img src="img/logo.png" alt="" /></a>
       <div><i id="menu-icon" class="ri-menu-4-fill"></i></div>
       <ul class="navbar">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#services">My Services</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contact Me</a></li>
+        <li><a href="#home" class="navbar-item">Home</a></li>
+        <li><a href="#about" class="navbar-item">About Me</a></li>
+        <li><a href="#services" class="navbar-item">My Services</a></li>
+        <li><a href="#portfolio" class="navbar-item">Portfolio</a></li>
+        <li><a href="#contact" class="navbar-item">Contact Me</a></li>
       </ul>
     </header>
+    
     <!-- HEADER SECTION ENDS -->
 
     <!-- HOME SECTION STARTS -->
@@ -243,6 +245,7 @@
           <li><a href="#">+977 980000000</a></li>
         </ul>
         </div>
+        <!-- social media links -->
         <div class="contact-icons">
           <a href="https://www.linkedin.com/in/pratik-lamichhane-017479206/"><i class="ri-linkedin-fill"></i><span></span></a>
           <a href="https://www.instagram.com/coreflick/"><i class="ri-instagram-line"></i></a>
@@ -267,6 +270,23 @@
       <p>Developed with <i class="ri-heart-line"></i> and <i class="ri-cup-line"></i> by <a href="https://pratiklamichhane.com.np/">Pratik Lamichhane</i></a><span></span></p>
       <p>Check source code: <a href="https://github.com/pratiklamichhane/Modern-Developer-Portfolio-Template"><span></span><i class="ri-github-fill"></i></a></p>
      </div>
-    <script src="script.js"></script>
+
+<!-- This is a simple javascript for responsive navbar -->
+<script>
+  menu = document.querySelector("#menu-icon");
+  menu.onclick = function() {
+    navbar = document.querySelector(".navbar");
+    navbar.classList.toggle("active");
+  }
+
+  const navbarItems = document.querySelectorAll(".navbar-item");
+
+  navbarItems.forEach(function(item) {
+    item.addEventListener("click", function() {
+      navbar.classList.remove("active"); 
+    });
+  });
+</script>
   </body>
+
 </html>
