@@ -15,7 +15,7 @@ html , body{
 }
 /* root variables to specify colors , change the color as you want */
 :root{
-    --bg--color: rgba(0, 0, 0, 0.953);
+    --bg--color: rgb(0, 0, 0);
     --text-color : #ffffff;
     --main-color: #ff7300;
     --second-color : gray;
