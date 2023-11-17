@@ -307,4 +307,78 @@ button:hover{
    .contact-text p{
     font-size: var(--p-font);
     color: var(--second-color);
+    line-height: 30px;
+    margin-bottom: 2rem;
    }
+
+   .contact-list{
+    margin-bottom: 3rem;
+   }
+   .contact-list li{
+    margin-bottom: 10px;
+    display: block;
+   }
+   .contact-list li a{
+    display: block;
+    color: var(--second-color);
+    font-size: var(--p-font);
+    font-weight: 400;
+    transition: all .40s ease;
+   }
+   .contact-list li a:hover{
+    transform: scale(1.01) translateY(-5px);
+    color: var(--main-color);
+   }
+   .contact-icons i{
+    height: 40px;
+    width: 40px;
+    font-size: 1.2rem;
+    background: #12141c;
+    border-radius: 0.5rem;
+    color:var(--main-color);
+    padding: 10px;
+    margin-right: 2vh;
+    transition: all .40s ease;
+   }
+   .contact-icons i:hover{
+    transform: scale(1.01) translateY(-5px);
+    color: var(--text-color);
+    background: var(--main-color);
+
+   }
+   .contact-form{
+    position: relative;
+   }
+   .contact-form form input,
+   form textarea{
+border : none;
+outline : none;
+width: 100%;
+padding: 18px;
+background:#12141c ;
+color: var(--text-color);
+font-size: 1rem;
+margin-bottom: 0.5rem;
+border-radius: 0.5rem;
+   }
+
+.contact-form textarea{
+    resize: none;
+    height:220px ;
+}
+
+.contact-form form .send{
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 500;
+    background: var(--main-color);
+    width: 190px;
+    transition: all .40s ease;
+}
+
+.contact-form form .send:hover{
+    transform: scale(1.01) translateY(-5px);
+    color: var(--bg--color);
+    background-color: var(--text-color);
+
+}
