@@ -196,7 +196,7 @@ button:hover{
 }
 .services-content {
     display: grid;
-    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     align-items: center;
     text-align: center;
     gap: 2rem;
@@ -236,13 +236,14 @@ button:hover{
 
    }
 
-   .portfolio-content{
+   .portfolio-content {
     display: grid;
-    grid-template-columns: repeat(3, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     align-items: center;
     gap: 2rem;
     margin-top: 5rem;
-   }
+  }
+  
    .row img{
     height: auto;
     width: 100%;
@@ -398,4 +399,14 @@ border-radius: 0.5rem;
 }
 .footer-text a{
     color: rgb(0, 106, 255);
+}
+
+
+@media (max-width : 1325px) {
+    header{
+        padding: 16px 3%;
+    }
+    section{
+        padding: 130px 3% 60px;
+    }
 }
