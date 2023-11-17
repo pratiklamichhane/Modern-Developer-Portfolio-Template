@@ -386,14 +386,16 @@ border-radius: 0.5rem;
 .footer-text{
     text-align: center;
     font-size: var(--p-font);
+    line-height: 3rem;
 }
 .footer-text i{
     color: var(--main-color);
     font-size: 1.4rem;
 }
-.footer-text a{
-    color: rgb(0, 200, 255);
+.footer-text i:hover{
+    color: var(--second-color);
+    font-size: 1.8rem;
 }
-.ri-arrow-right-line{
-    color: aqua;
+.footer-text a{
+    color: rgb(0, 106, 255);
 }
