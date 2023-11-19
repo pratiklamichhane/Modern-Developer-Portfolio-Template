@@ -138,11 +138,13 @@ button{
     font-size: 17px;
     font-weight: 800;
     transition: all 0.40s ease;
+    background-color: var(--main-color);
+
 }
 
 button:hover{
-    background-color: var(--main-color);
-    color: var(--text-color);
+    background-color: var(--text-color);
+    color: var(--bg-color);
     font-size: 20px;
 
 }
@@ -476,7 +478,7 @@ border-radius: 0.5rem;
         overflow: hidden;
     }
 .navbar.active{
-    height: 450px;
-    
+    height: 400px;
+    opacity: 100;
 }
 }
