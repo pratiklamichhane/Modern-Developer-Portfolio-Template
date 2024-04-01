@@ -32,5 +32,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Note**: This template is meant for educational purposes and to help beginners create their portfolio. Happy Coding!
+**Note**: This template completly is meant for educational purposes and to help beginners create their portfolio. Happy Coding!
 
